@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.FilterMenu {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.filter_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.FilterMenu h1 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  margin: 0 0 0.5rem 0;
+}
+
+input {
+  margin-right: 0.5rem;
+}
+
+hr {
+  margin: 1rem 0;
+  opacity: 40%;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 300;
+}

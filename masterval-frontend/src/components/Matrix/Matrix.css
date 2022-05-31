@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.table_matrix {
+    display: flex;
+}
+
+
+.p_tag {
+    font-weight: 600;
+}
+
+.table_table {
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.the_matrix_igen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+@media (width > 55vw) {
+
+    .the_matrix_igen {
+        overflow-x: scroll;
+    }
+}
+
+.horisontal {
+    display: flex;
+    flex-direction: row;
+    height: 2.2rem;
+   
+}
+
+
+
+.vertical_div_k {
+    width: 6rem;
+    height: 2.1rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    border: 1px solid #f2f2f2;
+  
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2b6778;
+margin: 0.1rem;
+}
+
+.vert {
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0.1rem;
+    display: flex;
+}
+
+
+
+.horisontal:hover {
+    background-color: #f9a26c;
+}
+
+
+.vertical_div_g {
+    background-color: #bec8a7;
+    margin: 0.1rem;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    border: 1px solid #f2f2f2;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.matrix_info {
+  display: flex;
+  margin: 0 auto;
+  width: 60vw;
+  flex-direction: column;
+  margin-top: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.section_upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem;
+  color: red;
+}
+
+.section_upper h2 {
+  margin-right: 0.5rem;
+}
+.section_lower {
+  overflow-y: scroll;
+  height: 40vh;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  margin-right: 0.5rem;
+  color: #2a6778;
+}
+
+.goal_complete_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem;
+  text-align: center;
+}
+
+.icon {
+  font-size: 10rem;
+  color: #bec8a7;
+}
+
+.goal_complete_container p {
+  margin: 1rem;
+  color: #2b6778;
+}
+
+.completing_courses_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1.5rem;
+  max-width: 70vw;
+}
+
+.uppfyll {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+.text {
+    font-weight: 700;
+}
+
+.the_matrix {
+    display: flex;
+    margin: 0 auto;
+    width: 75vw;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.matrix_title {
+    background-color: white;
+text-align:center;
+padding: 2rem 2rem 2rem 2rem;
+font-size: 1rem;
+}
+
+    .matrix_title h1 {
+        font-size: 1.875rem;
+    }
